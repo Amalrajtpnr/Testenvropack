@@ -1,0 +1,5 @@
+.skewed {
+  transform: skew(20deg, 0deg);
+  background-color: pink;
+  border-radius: 10px;
+}
