@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function InclinedImage() {
   return (
-    <div className="lg:w-[35%] sm300:w-[80%] lg:h-full sm300:h-[50%] sm500:h-full lg:flex  flex-col items-center justify-center relative sm500:mb-10 sm300:mb-0 lg:mb-0">
+    <div className="lg:w-[35%] sm300:w-[80%] lg:h-[100%] sm300:h-[50%] sm500:h-full lg:flex  flex-col items-center justify-center relative sm500:mb-10 sm300:mb-0 lg:mb-0">
     <img
       src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/I1.jpg?alt=media&token=df3c4430-34de-40f9-acba-05eb9e29595d"
       alt=""
