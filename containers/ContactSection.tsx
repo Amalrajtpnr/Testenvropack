@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Service from "../components/Service";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import { ImSpinner4 } from "react-icons/im";
 import { emailRegex } from "../constants/constants";
 
@@ -29,63 +29,63 @@ export default function ContactSection() {
 
 
 
-  const form = () => {
-    // emailjs.sendForm("service_6lan7xp", "template_fcou23s", "#myForm").then(
-    //   function (response) {
-    //     console.log("SUCCESS!", response.status, response.text);
-    //   },
-    //   function (err) {
-    //     console.log("FAILED...", err);
-    //   }
-    // );
-    if (message.trim().length !== 0 && email.trim().length !== 0) {
-      setloading(true);
-      const templateParams = {
-        email: email,
-        message: message,
-      };
-      emailjs
-        .send(
-          "service_6lan7xp",
-          "template_9nfj31d",
-          templateParams,
-          "eFkbMszW34bX3pAkq"
-        )
-        .then(
-          (response) => {
-            console.log("SUCCESS!", response.status, response.text);
-            setloading(false);
-            alert("Email sent successfully!");
-          },
-          (err) => {
-            console.log("FAILED...", err);
-            alert("Email sent successfully!");
+  // const form = () => {
+  //   // emailjs.sendForm("service_6lan7xp", "template_fcou23s", "#myForm").then(
+  //   //   function (response) {
+  //   //     console.log("SUCCESS!", response.status, response.text);
+  //   //   },
+  //   //   function (err) {
+  //   //     console.log("FAILED...", err);
+  //   //   }
+  //   // );
+  //   if (message.trim().length !== 0 && email.trim().length !== 0) {
+  //     setloading(true);
+  //     const templateParams = {
+  //       email: email,
+  //       message: message,
+  //     };
+  //     emailjs
+  //       .send(
+  //         "service_6lan7xp",
+  //         "template_9nfj31d",
+  //         templateParams,
+  //         "eFkbMszW34bX3pAkq"
+  //       )
+  //       .then(
+  //         (response) => {
+  //           console.log("SUCCESS!", response.status, response.text);
+  //           setloading(false);
+  //           alert("Email sent successfully!");
+  //         },
+  //         (err) => {
+  //           console.log("FAILED...", err);
+  //           alert("Email sent successfully!");
 
-            setloading(false);
-          }
-        );
-    } else {
-      if (message.trim().length === 0 && email.trim().length == 0) {
-        setError({
-          message: "message is required",
-          email: "Email is required",
-        });
-        alert("Email failed!");
+  //           setloading(false);
+  //         }
+  //       );
+  //   } else {
+  //     if (message.trim().length === 0 && email.trim().length == 0) {
+  //       setError({
+  //         message: "message is required",
+  //         email: "Email is required",
+  //       });
+  //       alert("Email failed!");
 
 
-      } else if (email.trim().length === 0) {
-        setError({
-          email: "Email is required",
-          message: "",
-        });
-      } else {
-        setError({
-          email: "Message is required",
-          message: "",
-        });
-      }
-    }
-  };
+  //     } else if (email.trim().length === 0) {
+  //       setError({
+  //         email: "Email is required",
+  //         message: "",
+  //       });
+  //     } else {
+  //       setError({
+  //         email: "Message is required",
+  //         message: "",
+  //       });
+  //     }
+  //   }
+  // };
 
   return (
     <div className="w-full lg:h-[120vh] sm300:h-[165vh] sm500:h-[40vh]   flex flex-col items-center lg:justify-between sm500:justify-around sm300:justify-between lg:mt-10 sm300:mt-10 sm500:mt-10">
@@ -167,7 +167,7 @@ export default function ContactSection() {
               </div>
             ) : (
               <button
-                onClick={form}
+                // onClick={form}
                 className="lg:w-[25%] sm300:w-[35%] sm500:w-[25%] lg:h-[15%] sm300:h-[18%] sm500:h-[15%] lg:text-[15px] sm300:text-[13px] sm500:text-[20px] bg-[#0A4364] text-white font-semibold rounded-xl focus:outline-none"
               >
                 Submit
