@@ -8,11 +8,11 @@ export default function NavBar() {
   return (
     <div className="w-full lg:h-[20%] sm500:h-[20%] sm300:h-[30%] bg-transparent flex  flex-row items-center lg:justify-between sm300:justify-start  lg:absolute sm500:absolute  ">
       <div className="lg:w-[40%]  sm300:w-[90%] h-full flex flex-row items-center lg:justify-start   lg:ml-[90px] sm300:ml-3 ">
-        <img
+        {/* <img
           src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/logo1.svg?alt=media&token=a5ec18b6-e581-4026-b253-8a3b1b7c813a&_gl=1*1tq8pep*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODcyNC4zMi4wLjA."
           alt=""
           className="lg:w-[12%] sm300:w-[10%] sm500:w-[12%] h-full"
-        />
+        /> */}
         <h1 className="lg:text-[40px] sm300:text-[25px] sm500:text-[45px] font-bold text-[#004E2B]  lg:ml-4 sm300:ml-2 sm500:ml-6">
           ENVROPACK
         </h1>

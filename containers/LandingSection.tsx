@@ -18,12 +18,12 @@ export default function LandingSection() {
             environmental impact. They promote eco-conscious consumer choices
             and support a cleaner, greener planet.
           </h1>
-          <a href="https://wa.me/+971545994729" className="lg:w-[22%] sm300:w-[40%] sm500:w-[30%] sm500:h-[7%] lg:h-[6%] sm300:h-[10%] bg-[#004E2B]  flex flex-row items-center justify-center rounded-full mt-4 cursor-pointer">
+          {/* <a href="https://wa.me/+971545994729" className="lg:w-[22%] sm300:w-[40%] sm500:w-[30%] sm500:h-[7%] lg:h-[6%] sm300:h-[10%] bg-[#004E2B]  flex flex-row items-center justify-center rounded-full mt-4 cursor-pointer">
             <button className="lg:text-[15px] sm300:text-[12px] sm500:text-[15px] text-white focus:outline-none  ">
               Chat with us
             </button>
             <BsWhatsapp size={20} color="white" className="ml-2" />
-          </a>
+          </a> */}
           <div className="w-[80%] h-[20%] flex flex-row items-start justify-between ">
             <div className="w-[25%] h-full flex flex-col items-start justify-center ">
               <h1 className="lg:text-[38px] sm300:text-[18px]  sm500:text-[25px] text-left font-bold ">10+</h1>
@@ -41,8 +41,8 @@ export default function LandingSection() {
         </div>
       </div>
       <div className="lg:w-[40%] sm500:w-[43%] sm300:w-[100%] lg:h-full sm500:h-full sm300:h-[50%] flex flex-col items-center justify-start ">
-        <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/shipping.jpg?alt=media&token=898be929-f7be-4081-94db-9df8730e976d&_gl=1*1msly5c*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjA1Ni41NC4wLjA." className="w-full h-full lg:flex sm300:hidden sm500:flex" alt="" />
-        <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/shippingmb.jpg?alt=media&token=4d129f45-ddef-4899-b70a-7dcb66de8a95&_gl=1*au6qdc*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjMyMS41OS4wLjA." className="w-full h-full sm300:flex lg:hidden sm500:hidden" alt="" />
+        {/* <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/shipping.jpg?alt=media&token=898be929-f7be-4081-94db-9df8730e976d&_gl=1*1msly5c*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjA1Ni41NC4wLjA." className="w-full h-full lg:flex sm300:hidden sm500:flex" alt="" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/shippingmb.jpg?alt=media&token=4d129f45-ddef-4899-b70a-7dcb66de8a95&_gl=1*au6qdc*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjMyMS41OS4wLjA." className="w-full h-full sm300:flex lg:hidden sm500:hidden" alt="" /> */}
 
 
       </div>

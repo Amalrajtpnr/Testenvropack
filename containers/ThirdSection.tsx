@@ -26,8 +26,8 @@ export default function ThirdSection() {
             planet.
           </h1>
         </div>
-        <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/plantmb.jpg?alt=media&token=8b6d6daf-8ccf-4e3f-b029-fff816c75048&_gl=1*jinok5*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyOTQxMy42MC4wLjA." alt="" className="lg:w-[50%] sm300:w-[100%] h-[100%] lg:hidden  sm500:hidden" />
-        <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/plant.jpg?alt=media&token=d4eb77d1-c907-4ff0-9909-24ce32f485ae&_gl=1*ck7tku*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjI0My41My4wLjA." alt="" className="lg:w-[50%] sm300:w-[100%] sm500:w-[50%] h-[100%] lg:flex sm300:hidden sm500:flex" />
+        {/* <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/plantmb.jpg?alt=media&token=8b6d6daf-8ccf-4e3f-b029-fff816c75048&_gl=1*jinok5*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyOTQxMy42MC4wLjA." alt="" className="lg:w-[50%] sm300:w-[100%] h-[100%] lg:hidden  sm500:hidden" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/plant.jpg?alt=media&token=d4eb77d1-c907-4ff0-9909-24ce32f485ae&_gl=1*ck7tku*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5ODkzNTk1Ny4zLjEuMTY5ODkzNjI0My41My4wLjA." alt="" className="lg:w-[50%] sm300:w-[100%] sm500:w-[50%] h-[100%] lg:flex sm300:hidden sm500:flex" /> */}
 
       </div>
     </div>
