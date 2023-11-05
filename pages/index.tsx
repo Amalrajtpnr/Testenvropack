@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import LandingSection from '../containers/LandingSection'
 import AboutSection from '../containers/AboutSection'
 import ThirdSection from '../containers/ThirdSection'
-import ContactSection from '../containers/ContactSection'
+// import ContactSection from '../containers/ContactSection'
 import Footer from '../components/Footer'
 
 
