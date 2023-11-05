@@ -30,7 +30,7 @@ export default function AboutSection() {
             <h1 className="lg:text-[30px] sm300:text-[20px] sm500:text-[25px] text-[#004E2B] text-left font-bold">
               What we’re trying to solve
             </h1>
-            {/* <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/cup.jpg?alt=media&token=d5fec22d-1de0-48fa-bcb0-4cad0a4c6a9d&_gl=1*2qay0v*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODc4My42MC4wLjA." alt="" className="lg:w-[100%] sm300:w-[100%] sm500:w-[95%] lg:h-[80%] sm300:h-[80%] sm500:h-[80%] lg:flex sm300:hidden sm500:flex" /> */}
+            <img src="https://firebasestorage.googleapis.com/v0/b/envropack-14c71.appspot.com/o/cup.jpg?alt=media&token=d5fec22d-1de0-48fa-bcb0-4cad0a4c6a9d&_gl=1*2qay0v*_ga*MTg4NzMzNTA0LjE2OTg5MjkzMjM.*_ga_CW55HF8NVT*MTY5OTAyODY5Ni41LjEuMTY5OTAyODc4My42MC4wLjA." alt="" className="lg:w-[100%] sm300:w-[100%] sm500:w-[95%] lg:h-[80%] sm300:h-[80%] sm500:h-[80%] lg:flex sm300:hidden sm500:flex" />
           </div>{" "}
           <div className="lg:w-[60%] lg:h-full  sm300:h-full sm500:w-[50%] flex flex-col items-start justify-center sm500:mt-5 sm300:mt-2 lg:mt-0">
             <h1 className="lg:text-[20px] sm300:text-[15px] sm500:text-[18px] lg:text-left sm300:text-center sm500:text-left sm300:leading-relaxed font-light ">
