@@ -12,7 +12,7 @@ export default function LandingSection() {
             We take immense pride in being your trusted partner for all your
             packaging needs
           </h1>
-          <h1 className="lg:text-[20px] sm300:text-[15px] sm500:text-[18px] lg:text-left sm300:text-center sm500:text-left  font-light  lg:mt-2 sm300:mt-0 sm500:mt-0">
+          <h1 className="lg:text-[25px] sm300:text-[15px] sm500:text-[18px] lg:text-left sm300:text-center sm500:text-left  font-light  lg:mt-2 sm300:mt-0 sm500:mt-0">
             Environmentally friendly disposable packages use sustainable
             materials, biodegradability, and reduced waste to minimize
             environmental impact. They promote eco-conscious consumer choices
